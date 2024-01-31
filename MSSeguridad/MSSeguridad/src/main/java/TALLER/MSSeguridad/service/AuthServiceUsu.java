@@ -1,4 +1,4 @@
-package Clinica.MSUsuario.service;
+package TALLER.MSSeguridad.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -8,9 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
-import Clinica.MSUsuario.model.modelUsuario;
-import Clinica.MSUsuario.redis.DBCache;
-import Clinica.MSUsuario.repository.IAuthRepositoryUsu;
+import TALLER.MSSeguridad.model.modelUsuario;
+import TALLER.MSSeguridad.redis.DBCache;
+import TALLER.MSSeguridad.repository.IAuthRepositoryUsu;
 
 @Service
 public class AuthServiceUsu implements IAuthServiceUsu{

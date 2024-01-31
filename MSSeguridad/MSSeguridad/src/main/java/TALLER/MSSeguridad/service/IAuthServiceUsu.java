@@ -1,8 +1,8 @@
-package Clinica.MSUsuario.service;
+package TALLER.MSSeguridad.service;
 
 import java.util.List;
 
-import Clinica.MSUsuario.model.modelUsuario;
+import TALLER.MSSeguridad.model.modelUsuario;
 
 public interface IAuthServiceUsu {
     public modelUsuario add (modelUsuario usu);

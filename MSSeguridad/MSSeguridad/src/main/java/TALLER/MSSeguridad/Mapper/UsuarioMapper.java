@@ -1,9 +1,9 @@
-package Clinica.MSUsuario.Mapper;
+package TALLER.MSSeguridad.Mapper;
 
 import org.springframework.stereotype.Component;
 
-import Clinica.MSUsuario.dto.AuthRequestUsu;
-import Clinica.MSUsuario.model.modelUsuario;
+import TALLER.MSSeguridad.dto.AuthRequestUsu;
+import TALLER.MSSeguridad.model.modelUsuario;
 
 @Component
 public class UsuarioMapper {

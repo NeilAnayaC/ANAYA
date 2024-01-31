@@ -1,4 +1,4 @@
-package Clinica.MSUsuario.dto;
+package TALLER.MSSeguridad.dto;
 
 import java.io.Serializable;
 

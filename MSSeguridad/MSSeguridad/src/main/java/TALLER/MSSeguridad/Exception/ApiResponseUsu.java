@@ -1,4 +1,4 @@
-package Clinica.MSUsuario.Exception;
+package TALLER.MSSeguridad.Exception;
 
 public class ApiResponseUsu<T> {
     

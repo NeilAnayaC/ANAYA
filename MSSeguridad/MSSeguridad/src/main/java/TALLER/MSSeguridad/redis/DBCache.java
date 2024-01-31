@@ -1,4 +1,4 @@
-package Clinica.MSUsuario.redis;
+package TALLER.MSSeguridad.redis;
 
 import org.springframework.cache.CacheManager;
 import org.springframework.cache.annotation.EnableCaching;

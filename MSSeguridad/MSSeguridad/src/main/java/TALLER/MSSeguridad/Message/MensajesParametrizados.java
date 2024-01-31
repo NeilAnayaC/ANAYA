@@ -1,4 +1,4 @@
-package Clinica.MSUsuario.Message;
+package TALLER.MSSeguridad.Message;
 
 public class MensajesParametrizados {
     

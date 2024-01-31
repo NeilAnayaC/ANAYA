@@ -1,4 +1,4 @@
-package Clinica.MSUsuario.model;
+package TALLER.MSSeguridad.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
