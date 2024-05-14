@@ -8,7 +8,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "usuario")
+@Table(name = "secutiry")
 public class modelUsuario {
     
     @Id
@@ -17,10 +17,10 @@ public class modelUsuario {
     public int usuarioid;
 
     @Column(name = "usuario")
-    public String usuario;
+    public String username;
 
     @Column(name = "clave")
-    public String clave;
+    public String password;
 
     public int getUsuarioid() {
         return usuarioid;
@@ -31,19 +31,19 @@ public class modelUsuario {
     }
 
     public String getUsuario() {
-        return usuario;
+        return username;
     }
 
-    public void setUsuario(String usuario) {
-        this.usuario = usuario;
+    public void setUsuario(String username) {
+        this.username = username;
     }
 
     public String getClave() {
-        return clave;
+        return password;
     }
 
-    public void setClave(String clave) {
-        this.clave = clave;
+    public void setClave(String username) {
+        this.username = username;
     }
 
     
